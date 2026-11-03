@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página 2</title>
+    <script src="JS/pagina2.js" defer></script>
+</head>
+
+<body>
+    <h1>Página 2</h1>
+    <p id="saludo"></p>
+    <div>
+        <button id="btn-borrar">Borrar el nombre</button>
+    </div>
+    <div>
+        <button id="limpiar">Borrar todo</button>
+    </div>
+    <a href="index.html">Volver a la página 1</a>
+    
+    <section id="seccion">
+        <h2>Sección de respuestas</h2>
+        <ol>
+            <li>
+                Respuesta 1: Porque se está ingresando el nombre de manera manual
+            </li>
+            <li>
+                Respuesta 2: getItem devuelve "null" cuando no hay ningún valor guardado.
+                Si el if no lo valida, se muestra "Hola, " o "Hola, undefined".
+            </li>
+            <li>
+                Respuesta 3: Al refrescar la página se mantienen los datos en el storage de
+                la sesión y al cerrar la pestaña si se eliminan los datos guardados.
+            </li>
+            <li>
+                Respuesta 4: No, no guardaría una contraseña en sessionStorage porque cualquiera
+                podría saberlo con un comando como sessionStorage.getItem("contraseña")
+                o simplemente viendo en Application -> Session Storage
+            </li>
+            <li><h4>Reto 3:</h4>
+                Al cambiar el sessionStorage por localStorage la información se mantiene
+                incluso después de cerrar el navegador.
+            </li>
+        </ol>
+    </section>
+</body>
+
+</html>
