@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Título */
+h1 {
+    color: #333;
+}
+
+/* Campos de texto */
+input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: #0056b3;
+}

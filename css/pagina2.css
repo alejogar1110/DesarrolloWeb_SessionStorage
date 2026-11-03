@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+}
+
+/* Saludo */
+#saludo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 20px;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    margin: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Enlace */
+a {
+    display: inline-block;
+    margin: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de respuestas */
+#seccion {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtítulo */
+#seccion h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Lista de respuestas */
+#seccion ol {
+    padding-left: 25px;
+}
+
+#seccion li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Reto 3 */
+#seccion h4 {
+    margin-bottom: 5px;
+    color: #0056b3;
+}
